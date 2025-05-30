@@ -5,7 +5,7 @@ function cmd(info, func) {
     data.function = func;
     if (!data.dontAddCommandList) data.dontAddCommandList = false;
     if (!info.desc) info.desc = '';
-    if (!data.fromMe) data.fromMe = false;
+    if (!data.fromMe) data.fromMe = true;
     if (!info.category) data.category = 'misc';
     if(!info.filename) data.filename = "Not Provided";
     commands.push(data);
